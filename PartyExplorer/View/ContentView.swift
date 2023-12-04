@@ -11,8 +11,10 @@ struct ContentView: View {
     @StateObject var viewModel = PartyViewModel()
     
     var body: some View {
-        
-        PartyListView(viewModel: viewModel)
+        NavigationView{
+            PartyListView(viewModel: viewModel)
+                .navigationTitle("🥂 Party Explorer 🥂")
+        }
     }
 }
 
