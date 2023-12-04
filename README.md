@@ -6,4 +6,4 @@ No additional packages needed to run applicaiton.
 
 1. **Clone the Repository:** 
    ```bash
-   git clone https://github.com/your_username/your_project.git
+   git clone https://github.com/Angel39706/PartyExplorer.git
